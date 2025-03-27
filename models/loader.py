@@ -689,7 +689,7 @@ class FastModel(FastBaseModel):
                 cudagraphs              = False,
                 debug                   = False,
                 fullgraph               = fullgraph,
-                import_from_cache       = False,
+                import_from_cache       = True,
                 disable                 = False,
                 return_logits           = return_logits,
                 trust_remote_code       = trust_remote_code,
